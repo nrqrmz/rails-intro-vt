@@ -1,9 +1,7 @@
 <h1>Contact us</h1>
 
-<% members = %w[thanh dimitri germain damien julien] %>
-
 <ol>
-  <% members.each do |member| %>
+  <% @members.each do |member| %>
     <li>
       <%= member.capitalize %>
     </li>
